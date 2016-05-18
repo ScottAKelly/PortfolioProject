@@ -14,7 +14,6 @@ head {
 }
 
 #mepic {
-	width: 400px;
 	height: 400px;
 	border: 1px solid black;
 	margin-top: 50px;
@@ -43,13 +42,22 @@ head {
 	border: 1px solid black;
 }
 
-#pltw {
+.leftSideProject {
 	float: left;
 	width: 600px;
 	text-align: center;
 	margin-left: 250px;
 	font-size: 20px;
 	margin-bottom: 200px;
+}
+
+.rightSideProject {
+	float: right;
+	width: 400px;
+	text-align: center;
+	margin-right: 250px;
+	font-size: 20px;
+	margin-bottom: 100px;
 }
 
 #smcpic {
@@ -59,13 +67,25 @@ head {
 	float: right;
 }
 
-#smc {
-	float: right;
+#elevennotepic {
+	width: 600px;
+	float: left;
+	margin-top: 225px;
+	border: 1px solid black;
+}
+
+#weightandbalancepic {
 	width: 400px;
+	border: 1px solid black;
+	margin-top: 125px;
+	float: right;
+	transform: rotate(180deg);
+}
+
+#weightandbalancemockuppic{
+	border: 1px solid black;
 	text-align: center;
-	margin-right: 250px;
-	font-size: 20px;
-	margin-bottom: 100px;
+	margin-top: 125px;
 }
 
 #widgets {
